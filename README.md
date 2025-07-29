@@ -452,3 +452,4 @@ python manage.py runserver
   <p style="margin-top: 40px; color: #666; font-style: italic;">Built with 💚 by Team Single Coders</p>
 </div>
 # Spider
+# spd
