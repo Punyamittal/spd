@@ -1,5 +1,3 @@
-![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
-
 # 🌟 SustainLabs - Revolutionizing Renewable Energy Management
 
 > **Transforming fragmented energy systems into unified, efficient, and trustworthy sustainable solutions**
@@ -18,7 +16,8 @@
 
 ## 📌 Problem Statement
 
-**Problem Statement 7 – Transform the Future of Rural Commerce**
+**❗ Problem Statement
+The adoption of renewable energy is hindered by five major challenges: system fragmentation, inefficiency, consumer distrust, reactive maintenance, and disaster vulnerability. These issues lead to higher operational costs, wasted energy potential, and unreliable infrastructure—especially in rural areas where sustainable development is most needed. There is an urgent need for an integrated, intelligent platform that ensures efficient, transparent, and resilient energy management.**
 
 ---
 
@@ -35,13 +34,10 @@ Our platform unifies renewable energy management with AI-powered insights, block
 ## 🧠 Team & Approach
 
 ### Team Name:  
-`Single Coders`
+`Spider`
 
-### Team Members:  
-- **Ayush Upadhyay** ([GitHub](https://github.com/Ayushdevx) | [LinkedIn](https://linkedin.com/in/ayushdevai) | AI & Backend Lead)  
-- **Shreyas Kumar** ([GitHub](https://github.com/shkshreyas) | [LinkedIn](https://linkedin.com/in/shkshreyas) | Frontend, App Dev & UI/UX Lead)  
-- **Amrithesh Menon** ([GitHub](https://github.com/im-Amrith) | [LinkedIn](https://www.linkedin.com/in/amrithesh-s-menon-1a2b86277) | Blockchain Integration Lead)  
-- **Punya Mittal** ([GitHub](https://github.com/Punyamittal) | [LinkedIn](https://www.linkedin.com/in/punya-mittal-a1122520b) | Data Science & Analytics Lead)
+### Team Members:   
+- **Punya Mittal** ([GitHub](https://github.com/Punyamittal) | [LinkedIn](https://www.linkedin.com/in/punya-mittal-a1122520b))
 
 ### Our Approach:  
 - We chose this problem because fragmented renewable energy systems limit rural economic development
@@ -455,3 +451,4 @@ python manage.py runserver
   </div>
   <p style="margin-top: 40px; color: #666; font-style: italic;">Built with 💚 by Team Single Coders</p>
 </div>
+# Spider
