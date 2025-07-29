@@ -15,7 +15,7 @@ const LoginPage: React.FC = () => {
           <Zap className="w-12 h-12 text-green-400" />
         </div>
         <h1 className="text-3xl font-bold bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
-          SusTainLabs
+          SustainLABs
         </h1>
         <p className="text-gray-400 mt-2">
           Revolutionizing telecom energy management
@@ -30,7 +30,7 @@ const LoginPage: React.FC = () => {
         transition={{ delay: 0.5 }}
         className="mt-12 text-center text-sm text-gray-500"
       >
-        <p>© {new Date().getFullYear()} SusTainLabs. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} SustainLABs. All rights reserved.</p>
       </motion.div>
     </div>
   );

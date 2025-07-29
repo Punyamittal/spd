@@ -58,7 +58,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center space-x-2 mr-6">
             <Zap className="w-6 h-6 text-primary" />
             <span className="text-base font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent truncate">
-              SusTainLabs
+              SustainLABs
             </span>
           </Link>
 

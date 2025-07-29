@@ -2,12 +2,12 @@ import React from 'react';
 import { Zap, Search, Plane, Bell } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-interface SustainLabsHeaderProps {
+interface SustainLABsHeaderProps {
   notificationCount?: number;
   userInitial?: string;
 }
 
-const SustainLabsHeader: React.FC<SustainLabsHeaderProps> = ({ 
+const SustainLABsHeader: React.FC<SustainLABsHeaderProps> = ({ 
   notificationCount = 0, 
   userInitial = 'A' 
 }) => {
@@ -15,7 +15,7 @@ const SustainLabsHeader: React.FC<SustainLabsHeaderProps> = ({
     <header className="bg-gray-900 p-4 flex items-center justify-between">
       <Link to="/" className="flex items-center gap-2">
         <Zap className="h-6 w-6 text-green-400" />
-        <span className="text-xl font-semibold text-green-400">SusTainLabs</span>
+        <span className="text-xl font-semibold text-green-400">SustainLABs</span>
       </Link>
       
       <div className="flex items-center gap-3">
@@ -42,4 +42,4 @@ const SustainLabsHeader: React.FC<SustainLabsHeaderProps> = ({
   );
 };
 
-export default SustainLabsHeader; 
+export default SustainLABsHeader; 

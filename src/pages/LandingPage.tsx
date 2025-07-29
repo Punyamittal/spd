@@ -406,7 +406,7 @@ const LandingPage = () => {
               textShadow: '0 0 40px rgba(74, 222, 128, 0.3)'
             }}
           >
-            SusTainLabs
+            SustainLABs
           </motion.h1>
 
           <motion.p
@@ -611,7 +611,7 @@ const LandingPage = () => {
         >
           <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Energy Management?</h2>
           <p className="text-xl text-gray-300 mb-8">
-            Join hundreds of telecom companies already optimizing their energy consumption with SusTainLabs.
+            Join hundreds of telecom companies already optimizing their energy consumption with SustainLABs.
           </p>
           <motion.div
             whileHover={{ scale: 1.05, boxShadow: '0 0 20px rgba(74, 222, 128, 0.5)' }}

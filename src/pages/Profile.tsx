@@ -60,7 +60,7 @@ const Profile = () => {
   const [showNotifications, setShowNotifications] = useState(false);
 
   const userData = {
-    name: 'Ayush Upadhyay',
+    name: 'Punya Mittal',
     role: 'Senior Energy Manager',
     email: 'Ayush.Upadhyay@gmail.com',
     phone: '+91 9305183418',

@@ -152,7 +152,7 @@ export function Chatbot() {
     setMessages([{ 
       id: Date.now(),
       role: 'bot', 
-      content: 'Hello! I am your SustainLab Learning assistant. How can I help you today?',
+      content: 'Hello! I am your SustainLABs Learning assistant. How can I help you today?',
       timestamp: new Date().toISOString(),
       persona: aiPersonas[0].id
     }]);
@@ -595,10 +595,10 @@ export function Chatbot() {
     if (messages.length === 0) return;
     
     // Format the chat for download
-    let chatContent = "# SustainLab Learning Chat\n\n";
+    let chatContent = "# SustainLABs Learning Chat\n\n";
     
     messages.forEach((message) => {
-      const role = message.role === 'user' ? 'You' : 'SustainLab Learning';
+      const role = message.role === 'user' ? 'You' : 'SustainLABs Learning';
       chatContent += `## ${role}:\n${message.content}\n\n`;
     });
     
@@ -612,7 +612,7 @@ export function Chatbot() {
     const formattedDate = date.toISOString().replace(/[:.]/g, '-').slice(0, 19);
     
     a.href = url;
-    a.download = `sustainlab-chat-${formattedDate}.md`;
+    a.download = `SustainLABs-chat-${formattedDate}.md`;
     document.body.appendChild(a);
     a.click();
     
@@ -723,17 +723,17 @@ export function Chatbot() {
         exportDate: new Date().toISOString()
       }, null, 2);
       fileType = 'application/json';
-      fileName = `sustainlab-chat-${dateStr}.json`;
+      fileName = `SustainLABs-chat-${dateStr}.json`;
     } else {
       // Markdown format (default)
-      let markdownContent = "# SustainLab Learning Chat Export\n\n";
+      let markdownContent = "# SustainLABs Learning Chat Export\n\n";
       markdownContent += `**Date:** ${new Date().toLocaleString()}\n\n`;
       
       messages.forEach((message) => {
         if (message.isNotification) return;
         
         const role = message.role === 'user' ? 'You' : 
-                    message.role === 'bot' ? 'SustainLab Learning' : 'System';
+                    message.role === 'bot' ? 'SustainLABs Learning' : 'System';
         
         markdownContent += `## ${role}:\n${message.content}\n\n`;
         
@@ -744,7 +744,7 @@ export function Chatbot() {
       
       content = markdownContent;
       fileType = 'text/markdown';
-      fileName = `sustainlab-chat-${dateStr}.md`;
+      fileName = `SustainLABs-chat-${dateStr}.md`;
     }
     
     // Create and download file
@@ -771,11 +771,11 @@ export function Chatbot() {
     try {
       if (navigator.share) {
         // Format chat for sharing
-        let text = "Chat with SustainLab Learning\n\n";
+        let text = "Chat with SustainLABs Learning\n\n";
         
         messages.slice(0, 5).forEach((message) => {
           if (!message.isNotification) {
-            const role = message.role === 'user' ? 'Me' : 'SustainLab Learning';
+            const role = message.role === 'user' ? 'Me' : 'SustainLABs Learning';
             text += `${role}: ${message.content.substring(0, 100)}${message.content.length > 100 ? '...' : ''}\n\n`;
           }
         });
@@ -785,7 +785,7 @@ export function Chatbot() {
         }
         
         await navigator.share({
-          title: 'My SustainLab Learning Conversation',
+          title: 'My SustainLABs Learning Conversation',
           text: text
         });
       } else {
@@ -793,11 +793,11 @@ export function Chatbot() {
         navigator.clipboard.writeText(
           messages.reduce((text, msg) => {
             if (!msg.isNotification) {
-              const role = msg.role === 'user' ? 'Me' : 'SustainLab Learning';
+              const role = msg.role === 'user' ? 'Me' : 'SustainLABs Learning';
               return text + `${role}: ${msg.content}\n\n`;
             }
             return text;
-          }, "Chat with SustainLab Learning\n\n")
+          }, "Chat with SustainLABs Learning\n\n")
         );
         
         setMessages(prev => [...prev, { 
@@ -861,7 +861,7 @@ export function Chatbot() {
             </div>
             <div>
               <h2 className="text-xl font-semibold flex items-center">
-                SustainLab Learning
+                SustainLABs Learning
                 <motion.span 
                   initial={{ opacity: 0, x: -10 }}
                   animate={{ opacity: 1, x: 0 }}
@@ -1425,7 +1425,7 @@ export function Chatbot() {
               
               <div className="text-xs text-gray-300">
                 {typingEffect && currentTypingMessageId && (
-                  <span className="italic">SustainLab is thinking...</span>
+                  <span className="italic">SustainLABs is thinking...</span>
                 )}
               </div>
             </div>

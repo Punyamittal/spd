@@ -38,7 +38,7 @@ const LoadingSpinner = () => (
     <div className="relative">
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-          SusTainLabs
+          SustainLABs
         </div>
       </div>
       <div className="animate-spin rounded-full h-24 w-24 border-t-4 border-b-4 border-primary"></div>

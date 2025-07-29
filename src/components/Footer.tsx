@@ -107,7 +107,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="transform transition-all duration-500 hover:scale-105">
             <h3 className="text-2xl font-bold mb-4 text-green-400 relative group">
-              SusTainLabs
+              SustainLABs
               <span className="absolute -bottom-1 left-0 w-12 h-0.5 bg-green-400 transform transition-all duration-300 group-hover:w-full"></span>
             </h3>
             <p className="text-gray-400 leading-relaxed">
@@ -221,7 +221,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-center text-gray-400">
           <p className="flex items-center justify-center gap-2 transform transition-all duration-300 hover:scale-105">
-            Made with <Heart className="w-4 h-4 text-red-400" />by Ayush Upadhyay SusTainLabs &copy; {new Date().getFullYear()}
+            Made with <Heart className="w-4 h-4 text-red-400" />by Punya Mittal SustainLABs &copy; {new Date().getFullYear()}
           </p>
         </div>
       </div>

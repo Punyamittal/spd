@@ -1,9 +1,9 @@
-# 🌟 SustainLabs - Revolutionizing Renewable Energy Management
+# 🌟 SustainLABs - Revolutionizing Renewable Energy Management
 
 > **Transforming fragmented energy systems into unified, efficient, and trustworthy sustainable solutions**
 
 <div align="center">
-  <img src="demo/landing page.png" alt="SustainLabs Landing Page" width="900"/>
+  <img src="demo/landing page.png" alt="SustainLABs Landing Page" width="900"/>
   
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![React](https://img.shields.io/badge/React-18.3.1-61DAFB.svg?logo=react&logoColor=white&style=for-the-badge)](https://reactjs.org/)
@@ -23,7 +23,7 @@ The adoption of renewable energy is hindered by five major challenges: system fr
 
 ## 🎯 Objective
 
-SustainLabs tackles the five critical bottlenecks in renewable energy adoption: fragmentation, inefficiency, lack of trust, reactive maintenance, and disaster vulnerability.
+SustainLABs tackles the five critical bottlenecks in renewable energy adoption: fragmentation, inefficiency, lack of trust, reactive maintenance, and disaster vulnerability.
 
 The renewable sector suffers from disconnected systems and data silos that increase operational costs by 40%. Nearly 80% of installations operate below optimal efficiency, wasting 12-27% of potential savings without real-time AI insights. Consumer distrust runs high, with 43% skeptical of green energy claims. Reactive maintenance leads to costly downtime—wind turbine failures average $240,000 per incident.
 
@@ -268,11 +268,11 @@ Our platform unifies renewable energy management with AI-powered insights, block
 
 ## 📽️ Demo & Deliverables
 
-- **Demo Video Link:** [SustainLabs Platform Demo](https://youtu.be/fEW80uieYXs)  
-- **Pitch Deck:** [SustainLabs Pitch Presentation](https://drive.google.com/file/d/1X2Y3Z/view)  
+- **Demo Video Link:** [SustainLABs Platform Demo](https://youtu.be/fEW80uieYXs)  
+- **Pitch Deck:** [SustainLABs Pitch Presentation](https://drive.google.com/file/d/1X2Y3Z/view)  
 
 <div align="center">
-  <img src="demo/landing page 2.png" alt="SustainLabs Platform" width="900" height="500" style="border-radius: 10px; margin: 30px 0;"/>
+  <img src="demo/landing page 2.png" alt="SustainLABs Platform" width="900" height="500" style="border-radius: 10px; margin: 30px 0;"/>
 </div>
 
 ---
@@ -300,7 +300,7 @@ Our platform unifies renewable energy management with AI-powered insights, block
   </div>
   <div style="width: 48%;">
     <h3>Learning Resources</h3>
-    <img src="demo/Sustainlab learning.png" alt="Learning Resources" width="100%" height="300px" style="border-radius: 10px;"/>
+    <img src="demo/SustainLABs learning.png" alt="Learning Resources" width="100%" height="300px" style="border-radius: 10px;"/>
     <p>Comprehensive knowledge base for sustainable energy practices.</p>
   </div>
 </div>
@@ -326,10 +326,10 @@ Our platform unifies renewable energy management with AI-powered insights, block
 ### Local Setup:
 ```bash
 # Clone the repo
-git clone https://github.com/Ayushdevx/SustainLabs
+git clone https://github.com/Ayushdevx/SustainLABs
 
 # Install dependencies
-cd SustainLabs
+cd SustainLABs
 npm install
 
 # Configure environment variables
@@ -373,7 +373,7 @@ python manage.py runserver
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin: 40px 0;">
   <div style="text-align: center;">
     <img src="https://avatars.githubusercontent.com/u/150950158?v=4" width="180" height="180" style="border-radius: 50%; object-fit: cover; border: 4px solid #4CAF50;"/>
-    <h3>Ayush Upadhyay</h3>
+    <h3>Punya Mittal</h3>
     <p>AI & Backend Lead</p>
     <a href="https://github.com/Ayushdevx" style="margin-right: 10px;"><img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white" height="25"></a>
     <a href="https://linkedin.com/in/ayushdevai"><img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white" height="25"></a>
@@ -442,7 +442,7 @@ python manage.py runserver
   <img src="demo/map .png" alt="Global Impact Map" width="900" height="500" style="border-radius: 10px; margin-bottom: 20px;"/>
   <h2>Join us in transforming renewable energy management worldwide</h2>
   <div style="margin-top: 30px;">
-    <a href="https://github.com/Ayushdevx/SustainLabs" style="text-decoration: none;">
+    <a href="https://github.com/Ayushdevx/SustainLABs" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/GitHub-View_Repository-2EA44F?style=for-the-badge&logo=github" alt="View on GitHub" height="40">
     </a>
     <a href="https://youtu.be/fEW80uieYXs" style="text-decoration: none; margin-left: 20px;">

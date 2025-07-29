@@ -253,7 +253,7 @@ const MaintenanceDashboard = () => {
 
         {/* Company Information */}
         <div className="mt-6 py-4">
-          <h3 className="text-lg font-semibold text-green-400 border-b border-gray-700 pb-2 mb-4">SusTainLabs</h3>
+          <h3 className="text-lg font-semibold text-green-400 border-b border-gray-700 pb-2 mb-4">SustainLABs</h3>
           <p className="text-gray-400 mb-6">
             Revolutionizing telecom energy consumption through innovative solutions and sustainable practices.
           </p>
